@@ -5,11 +5,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha 'src/**/*test.js'"
   },
   "author": "Steven Gouws",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "ynab": "^1.32.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.1",
+    "eslint-plugin-chai-friendly": "0.7.2",
+    "mocha": "10.2.0",
+    "chai": "4.3.7",
+    "chai-as-promised": "7.1.1",
+    "sinon": "15.0.1"
   }
 }
